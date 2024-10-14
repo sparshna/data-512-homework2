@@ -3,6 +3,44 @@
 ## Project Overview
 This project explores bias in data using Wikipedia articles about politicians from various countries. The goal is to analyze the coverage and quality of Wikipedia articles on political figures relative to country populations. The project combines datasets of Wikipedia articles and country populations, retrieves article quality estimates using the ORES machine learning tool, and performs an analysis of how article coverage and quality vary across countries and regions. The final output includes tables ranking countries and regions by article coverage and high-quality content, as well as a reflection on biases observed in the data and their implications for data science projects.
 
+## Research Implications
+
+- The analysis of Wikipedia articles by country and region reveals interesting insights into the coverage and quality of information on the platform. The findings suggest that there are biases in the data, with certain countries and regions having higher coverage and quality of articles compared to others. These biases can be attributed to factors such as language, geography, culture, and politics, which influence the availability and accuracy of information on Wikipedia. Addressing these biases is crucial to ensure a more balanced and inclusive representation of global knowledge on the platform.
+- The results highlight the need for more comprehensive and diverse data sources to overcome the limitations of Wikipedia as a data source. While Wikipedia provides valuable information, its coverage and quality may not be representative of all countries and regions worldwide. By incorporating data from multiple sources and ensuring data integrity and diversity, researchers can mitigate biases and enhance the reliability of their analyses and models.
+- One surprising finding was the high number of articles per capita in countries like Tuvalu and Monaco, which have very small populations. While these countries have a high number of articles per capita, the metric may not accurately reflect the coverage and quality of information due to their small population sizes. This underscores the importance of considering population size and other contextual factors when interpreting data and drawing conclusions from it.
+
+### QUESTION:
+- What biases did you expect to find in the data (before you started working with it), and why?
+### ANSWER:
+I expected to find biases in the data due to the following reasons:
+- 1. Language bias: Wikipedia is primarily available in English, which may lead to overrepresentation of English-speaking countries and underrepresentation of non-English-speaking countries.
+- 2. Geographic bias: Countries with higher internet penetration rates and better access to technology may have more articles on Wikipedia compared to countries with lower internet penetration rates.
+- 3. Cultural bias: Countries with a strong tradition of documenting historical and cultural information may have more articles on Wikipedia compared to countries with less emphasis on documentation.
+- 4. Political bias: Countries with more political stability and freedom of speech may have more articles on Wikipedia compared to countries with less political stability and freedom of speech.
+     
+### --------
+
+### QUESTION:
+- What might your results suggest about (English) Wikipedia as a data source?
+### ANSWER:
+The results suggest that (English) Wikipedia may have biases in terms of coverage and quality of articles. The top countries by coverage and quality are mostly English-speaking countries or countries with high internet penetration rates. This indicates that Wikipedia may not be a representative source of information for all countries and regions globally. There is a need to address these biases to ensure a more balanced and inclusive representation of information on Wikipedia.
+
+### --------
+
+### QUESTION:
+- What might your results suggest about the internet and global society in general?
+### ANSWER:
+The results suggest that the internet and global society may have biases in terms of information representation and accessibility. Countries with better internet infrastructure and higher literacy rates are more likely to have higher coverage and quality of articles on Wikipedia. This indicates that there is a digital divide between countries with access to information and those without. Addressing these biases is essential to promote a more equitable and inclusive representation of information on the internet and in global society.
+
+### --------
+
+### QUESTION:
+- Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+### ANSWER:
+A realistic situation where using Wikipedia data to train a model or conduct hypothesis-driven research might lead to biased or misleading results is in a project focused on analyzing global political representation or historical coverage. For instance, if a model were trained to predict the global prominence of political figures based on Wikipedia articles, it might overestimate the importance of politicians from countries with higher internet access, more active Wikipedia communities, or dominant English-speaking populations, while underestimating figures from regions with less representation. This would lead to skewed results that misrepresent global political influence, disproportionately favoring countries with higher Wikipedia article coverage. The same issue could arise in business decision-making contexts, such as market analysis, where models might mistakenly assume higher public interest or prominence in certain regions based on the number of articles or article quality.
+
+### --------
+
 ## Data Description and Provenance
 
 ### Data Source
